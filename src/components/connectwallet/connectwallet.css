@@ -1,0 +1,14 @@
+.walllets {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.wallet_hd {
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 1em;
+}
