@@ -13,8 +13,8 @@ header {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   color: #ffffff;
 }
-.nav_content a{
-     color: #ffffff; 
+.nav_content a {
+  color: #ffffff;
 }
 .visible {
   display: block;
@@ -31,16 +31,16 @@ ul {
 }
 .nav_link {
   margin-bottom: 1em;
-    color: #ffffff;
+  color: #ffffff;
 }
 .connect {
   display: block;
   margin: 1em auto 0;
   padding: 0.7em 1em;
   border: 0;
-  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  color: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 10px;
-  color: #ffffff;
+  background-color: #ffffff;
 }
 @media (min-width: 40rem) {
   .nav_content {
@@ -64,16 +64,16 @@ ul {
     margin-bottom: 0;
     color: #000;
   }
-   .nav_link a{
-      color: #000; 
-   }
+  .nav_link a {
+    color: #000;
+  }
   .mobile_navigation {
     display: none;
   }
   .connect {
     margin: 0;
     border: 0;
-    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-border-radius: 10px;
+    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+    border-radius: 10px;
   }
 }
