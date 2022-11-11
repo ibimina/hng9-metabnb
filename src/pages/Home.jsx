@@ -1,5 +1,4 @@
 import React from "react";
-import { Modal } from "../components";
 import NavBar from "../components/navbar/NavBar";
 
 export default function Home() {
@@ -27,7 +26,7 @@ export default function Home() {
 
         </div>
       </div>
-      <Modal/>
+
     </div>
   );
 }
