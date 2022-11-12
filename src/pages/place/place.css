@@ -45,4 +45,7 @@
   .loc_sort li {
     margin-bottom: 0em;
   }
+  .place_margin{
+    padding: 2em 5em;
+  }
 }
