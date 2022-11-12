@@ -35,7 +35,7 @@ footer {
 .ft_mar {
   font-weight: 400;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 25px;
   color: #f1f3f9;
 }
 @media (min-width: 40rem) {
@@ -71,5 +71,8 @@ footer {
   }
   .ft_link {
     text-align: start;
+  }
+  .ft_mar{
+    line-height: 35px;
   }
 }
