@@ -1,12 +1,12 @@
 import React from "react";
-import { NavBar } from "../../components";
+import { Footer, NavBar } from "../../components";
 import Inspiration from "./Inspiration";
 import "./home.css";
 import Rent from "./Rent";
 import More from "./More";
 export default function Home() {
   return (
-    <div>
+    <>
       <NavBar />
       <Rent />
       <div className="banner flex">
@@ -22,6 +22,7 @@ export default function Home() {
       </div>
       <Inspiration />
       <More/>
-    </div>
+      <Footer/>
+    </>
   );
 }
