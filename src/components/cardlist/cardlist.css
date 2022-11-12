@@ -1,0 +1,45 @@
+.card_list {
+  display: grid;
+  justify-content: center;
+  gap: 1.5em;
+  margin: 0 1em;
+}
+.card_container {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  padding: 0.8em;
+}
+.nft_image {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.card_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_margin {
+  margin-bottom: 0.5em;
+}
+.text {
+  font-size: 12px;
+  line-height: 13px;
+}
+.price {
+  font-weight: 700;
+}
+.card_gap {
+  gap: 0.5em;
+}
+@media (min-width: 40rem) {
+  .card_list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+}
+@media (min-width: 60rem) {
+  .card_list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
