@@ -49,7 +49,7 @@ form {
 }
 .ins {
   text-align: center;
-  /* margin-bottom: 2em; */
+  margin-bottom: 1em;
   font-weight: 700;
   font-size: 20px;
   line-height: 60px;
@@ -62,13 +62,40 @@ form {
 .gap {
   gap: 0.2em;
 }
-
+.more_section {
+  padding: 2em;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+.wht_accent {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.meta {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 1em;
+}
+.meta_con {
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 1em;
+}
+.more_btn {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  border: 0;
+  padding: 1em 2em;
+  color: #a02279;
+}
 @media (min-width: 60rem) {
   .home_container {
     padding: 4em;
     display: grid;
-    grid-template-columns: 600px 400px;
-    gap: 8em;
+    grid-template-columns: 50% 30%;
+    gap: 6em;
     justify-content: center;
   }
   h1 {
@@ -82,5 +109,13 @@ form {
   }
   .ins {
     font-size: 48px;
+  }
+  .more_section {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 5em 9em;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
   }
 }
