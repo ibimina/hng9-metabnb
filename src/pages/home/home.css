@@ -89,17 +89,18 @@ form {
   border: 0;
   padding: 1em 2em;
   color: #a02279;
+  margin-bottom: 2em;
 }
 @media (min-width: 60rem) {
   .home_container {
-    padding: 4em;
+    padding: 2em;
     display: grid;
     grid-template-columns: 50% 30%;
     gap: 6em;
     justify-content: center;
   }
   h1 {
-    font-size: 56px;
+    font-size: 46px;
   }
   .banner {
     padding: 0.5em 8em;
@@ -113,9 +114,12 @@ form {
   .more_section {
     display: grid;
     grid-template-columns: 40% 60%;
-    padding: 5em 9em;
+    padding: 5em 7em;
     justify-content: center;
     align-items: center;
     gap: 4em;
+  }
+  .more_btn{
+    margin-bottom: 0;
   }
 }
