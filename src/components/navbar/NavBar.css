@@ -2,8 +2,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 2em 3em;
   position: relative;
+}
+.logo {
+  width: 150px;
 }
 .nav_content {
   display: none;
@@ -41,7 +44,7 @@ header {
 }
 @media (min-width: 40rem) {
   header {
-    padding: 2em 5em;
+    padding: 2em 3em;
   }
   .nav_content {
     position: relative;
@@ -49,7 +52,7 @@ header {
     left: auto;
     right: auto;
     background: transparent;
-    width: 60%;
+    width: 70%;
     display: flex;
     padding: 0;
     align-items: center;
@@ -58,7 +61,8 @@ header {
   .nav_list {
     display: flex;
     border-bottom: none;
-    gap: 4em;
+    gap: 2em;
+    justify-content: space-around;
   }
   .nav_link {
     margin-bottom: 0;
@@ -76,5 +80,13 @@ header {
     background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
     border-radius: 10px;
     color: #ffffff;
+  }
+}
+@media (min-width: 60rem) {
+  .nav_list {
+    width: 60%;
+  }
+  header{
+    padding: 2em 9em;
   }
 }
