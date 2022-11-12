@@ -10,8 +10,7 @@ header {
 }
 .nav_content {
   display: none;
-  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-  color: #ffffff;
+  background: rgb(37, 36, 36);
 }
 .nav_content a {
   color: #ffffff;
@@ -19,7 +18,7 @@ header {
 .visible {
   display: block;
   position: absolute;
-  top: 3em;
+  top: 4em;
   right: 2em;
   left: 2em;
   border-radius: 10px;
@@ -38,9 +37,9 @@ header {
   margin: 1em auto 0;
   padding: 0.7em 1em;
   border: 0;
-  color: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+   color: #ffffff;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 10px;
-  background-color: #ffffff;
 }
 @media (min-width: 40rem) {
   header {
@@ -77,9 +76,6 @@ header {
   .connect {
     margin: 0;
     border: 0;
-    background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
-    border-radius: 10px;
-    color: #ffffff;
   }
 }
 @media (min-width: 60rem) {
@@ -87,6 +83,6 @@ header {
     width: 60%;
   }
   header{
-    padding: 2em 9em;
+    padding: 2em 6em;
   }
 }
