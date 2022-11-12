@@ -17,8 +17,8 @@ form {
 }
 .desc {
   margin-bottom: 1em;
-  line-height: 35px;
-  font-size: 24px;
+  line-height: 30px;
+  font-size: 18px;
 }
 .locate {
   border: 0;
@@ -93,11 +93,15 @@ form {
 }
 @media (min-width: 60rem) {
   .home_container {
-    padding: 2em;
+    padding: 1em 2em;
     display: grid;
-    grid-template-columns: 50% 30%;
+    grid-template-columns: 55% 30%;
     gap: 6em;
     justify-content: center;
+  }
+  .desc{
+      line-height: 35px;
+  font-size: 24px;
   }
   h1 {
     font-size: 46px;
