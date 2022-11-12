@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 3em;
+  padding: 2em;
   position: relative;
 }
 .logo {
@@ -96,6 +96,6 @@ header {
     width: 60%;
   }
   header{
-    padding: 2em 6em;
+    padding: 2em 4em;
   }
 }
