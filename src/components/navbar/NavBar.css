@@ -41,6 +41,19 @@ header {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 10px;
 }
+.mobile_navigation{
+  border: 0;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  background-image: url("/assets/icon-hamburger.svg");
+}
+.mobile_navigation[aria-expanded=true]{
+  background-image: url("/assets/icon-close.svg");
+}
 @media (min-width: 40rem) {
   header {
     padding: 2em 3em;
