@@ -40,10 +40,11 @@ export default function NavBar() {
 
         <button
           className="mobile_navigation"
+          aria-expanded={openMenu}
           aria-label={!openMenu ? "open menu" : "close menu"}
           onClick={() => (!openMenu ? setOpenMenu(true) : setOpenMenu(false))}
         >
-          menu
+        
         </button>
       </header>
       <ConnectWallet handleOpenW={handleOpenW} openW={openW} />
