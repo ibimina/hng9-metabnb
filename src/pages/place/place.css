@@ -1,17 +1,19 @@
 .loc_con {
   margin-bottom: 1em;
-  padding: 1.5em;
+  padding: 1em;
 }
 .loc_sort {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
   margin-bottom: 1em;
 }
 .loc_sort li {
   margin-bottom: 0.5em;
 }
 .place_margin {
-  padding: 1em;
+  padding: 2em;
+  margin-bottom: 2em;
 }
 .loc {
   display: inline-flex;
@@ -46,6 +48,6 @@
     margin-bottom: 0em;
   }
   .place_margin{
-    padding: 2em 5em;
+    padding: 2em 3em;
   }
 }
