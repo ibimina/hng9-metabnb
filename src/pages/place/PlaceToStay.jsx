@@ -1,10 +1,10 @@
-import React from 'react'
-import NavBar from '../components/navbar/NavBar'
+import React from "react";
+import { NavBar } from "../../components";
 
 export default function PlaceToStay() {
   return (
     <div>
-<NavBar/>      
+      <NavBar />
     </div>
-  )
+  );
 }
