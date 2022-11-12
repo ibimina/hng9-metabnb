@@ -41,13 +41,14 @@ footer {
 @media (min-width: 40rem) {
   footer {
     display: grid;
-    grid-template-columns: 25% 70%;
-    padding: 3em 4em;
+    grid-template-columns: 25% 60%;
+    padding: 3em 5em;
     column-gap: 2em;
   }
   .ft_links {
     display: flex;
     justify-content: space-between;
+    text-align: start;
   }
   .ft_flex {
     justify-content: flex-start;
@@ -66,7 +67,7 @@ footer {
 }
 @media (min-width: 60rem) {
   footer {
-    padding: 3em 9em;
+    /* padding: 3em 9em; */
     column-gap: 5em;
   }
   .ft_link {
