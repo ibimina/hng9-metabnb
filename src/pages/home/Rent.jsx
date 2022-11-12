@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Rent() {
   return (
@@ -24,9 +24,7 @@ export default function Rent() {
           <input type="submit" value="Search" className="search" />
         </form>
       </div>
-      <div className="location_imgcon">
-        <img src="/assets/Group 4028 (1).png" alt="" className="location_img" />
-      </div>
+      <img src="/assets/Group 4028 (1).png" alt="" className="location_img" />
     </div>
   );
 }
