@@ -1,6 +1,6 @@
 .loc_con {
   margin-bottom: 1em;
-  padding: 1em;
+  /* padding: 1em; */
 }
 .loc_sort {
   display: grid;
@@ -48,6 +48,6 @@
     margin-bottom: 0em;
   }
   .place_margin{
-    padding: 2em 3em;
+    padding: 2em 4em;
   }
 }
