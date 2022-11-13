@@ -42,7 +42,7 @@ footer {
   footer {
     display: grid;
     grid-template-columns: 25% 60%;
-    padding: 3em 5em;
+    padding: 3em;
     column-gap: 2em;
   }
   .ft_links {
@@ -67,7 +67,7 @@ footer {
 }
 @media (min-width: 60rem) {
   footer {
-    /* padding: 3em 9em; */
+    padding: 5em;
     column-gap: 5em;
   }
   .ft_link {
