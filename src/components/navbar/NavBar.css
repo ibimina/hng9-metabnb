@@ -54,7 +54,7 @@ header {
 .mobile_navigation[aria-expanded=true]{
   background-image: url("/assets/icon-close.svg");
 }
-@media (min-width: 40rem) {
+@media (min-width: 50rem) {
   header {
     padding: 2em 3em;
   }
