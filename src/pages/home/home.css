@@ -1,5 +1,5 @@
 .home_container {
-  padding: 2em;
+  padding: 3em;
 }
 h1 {
   margin-bottom: 1em;
@@ -40,7 +40,7 @@ form {
   border: 0;
 }
 .ins_container {
-  padding: 1em;
+  padding: 2em;
   font-size: 14px;
 }
 .location_img {
@@ -63,7 +63,7 @@ form {
   gap: 0.2em;
 }
 .more_section {
-  padding: 2em;
+  padding: 3em;
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
 }
 .wht_accent {
@@ -93,7 +93,7 @@ form {
 }
 @media (min-width: 60rem) {
   .home_container {
-    padding: 1em 2em;
+    padding: 3em;
     display: grid;
     grid-template-columns: 55% 30%;
     gap: 6em;
@@ -110,14 +110,14 @@ form {
     padding: 0.5em 8em;
   }
   .ins_container {
-    padding: 5em;
+    padding: 4em;
   }
   .ins {
     font-size: 48px;
   }
   .more_section {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 55%;
     padding: 5em 7em;
     justify-content: center;
     align-items: center;
