@@ -6,7 +6,7 @@ export default function CardList({ data }) {
       <ul className="card_list">
         {data.map((card, index) => (
           <li key={index} className="card_container">
-            <img src={card.image} alt="" className="nft_image" />
+            <img src={card.image} alt="NFTs location image" className="nft_image" />
             <div className="card_flex card_margin">
               <p className="text">{card.name}</p>
               <p className="text price">{card.price}</p>
@@ -16,12 +16,15 @@ export default function CardList({ data }) {
               <p className="text">{card.available}</p>
             </div>
             <div className="flex card_gap">
-              <img src="/assets/Star.svg" alt="" />
-              <img src="/assets/Star.svg" alt="" />
-              <img src="/assets/Star.svg" alt="" />
-              <img src="/assets/Star.svg" alt="" />
-              <img src="/assets/Star.svg" alt="" />
-            </div> 
+              <img
+                src="/assets/Star.svg"
+                alt="a purple star icon a purple star icon "
+              />
+              <img src="/assets/Star.svg" alt="a purple star icon " />
+              <img src="/assets/Star.svg" alt="a purple star icon " />
+              <img src="/assets/Star.svg" alt="a purple star icon " />
+              <img src="/assets/Star.svg" alt="a purple star icon " />
+            </div>
           </li>
         ))}
       </ul>

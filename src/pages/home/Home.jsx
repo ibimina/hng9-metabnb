@@ -11,13 +11,13 @@ export default function Home() {
       <Rent />
       <div className="banner flex">
         <div className="flex gap">
-          <img src="/assets/Group 59537.svg" alt="" className="nft lit" />
+          <img src="/assets/Group 59537.svg" alt="MBToken logo" className="nft lit" />
         </div>
         <div className="flex gap">
-          <img src="/assets/Group 4040.svg" alt="" className="nft" />
+          <img src="/assets/Group 4040.svg" alt="Metamask logo" className="nft" />
         </div>
         <div className="flex gap">
-          <img src="/assets/Frame 4041.svg" alt="" className="nft" />
+          <img src="/assets/Frame 4041.svg" alt="Opensea logo" className="nft" />
         </div>
       </div>
       <Inspiration />

@@ -39,14 +39,14 @@ export default function Footer() {
       <div className="footer_logo">
         <div>
           <div className="ft_flex">
-            <img src="/assets/facebook.svg" alt="" />
-            <img src="/assets/instagram.svg" alt="" />
-            <img src="/assets/twitter.svg" alt="" />
+            <img src="/assets/facebook.svg" alt="facebook icon" />
+            <img src="/assets/instagram.svg" alt="instagram icon" />
+            <img src="/assets/twitter.svg" alt="twitter icon" />
           </div>
         </div>
         <div className="ft_link">
           {" "}
-          <img src="/assets/copyright.svg" alt="" /> <span> 2022 Metabnb</span>{" "}
+          <img src="/assets/copyright.svg" alt="copyright icon" /> <span> 2022 Metabnb</span>{" "}
         </div>
       </div>
     </footer>

@@ -13,7 +13,7 @@ export default function More() {
         </p>
         <button className="more_btn">Learn more</button>
       </div>
-      <img src="/assets/Frame 59546.png" alt="" className="more_image" />
+      <img src="/assets/Frame 59546.png" alt="NFTs gift collection cards" className="more_image" />
     </div>
   );
 }

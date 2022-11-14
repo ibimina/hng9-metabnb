@@ -13,7 +13,7 @@ export default function ConnectWallet({ openW, handleOpenW }) {
           />
         </div>
         <div className="choose">
-          <p className="margin">Choose your wallet</p>
+          <p className="margin col">Choose your wallet</p>
           <div className="flex space margin">
             <div className="flex grey">
               <img src="/assets/image 66.png" alt="Metamask icon" />

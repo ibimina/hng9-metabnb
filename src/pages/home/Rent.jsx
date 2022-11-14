@@ -16,15 +16,13 @@ export default function Rent() {
         <form>
           <input
             type="text"
-            name=""
-            id=""
             className="locate"
             placeholder="Search for location"
           />{" "}
           <input type="submit" value="Search" className="search" />
         </form>
       </div>
-      <img src="/assets/Group 4028 (1).png" alt="" className="location_img" />
+      <img src="/assets/Group 4028 (1).png" alt="four NFTs locations picture grid" className="location_img" />
     </div>
   );
 }
