@@ -1,6 +1,5 @@
 footer {
   background-color: black;
-
   padding: 3em;
 }
 .ft_logo {
@@ -67,7 +66,7 @@ footer {
 }
 @media (min-width: 60rem) {
   footer {
-    padding: 5em;
+    padding:3em 5em;
     column-gap: 5em;
   }
   .ft_link {
