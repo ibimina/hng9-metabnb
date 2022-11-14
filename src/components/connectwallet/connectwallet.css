@@ -24,6 +24,9 @@
   border-bottom: 1px solid grey;
   padding: 1em;
 }
+.col{
+  color: #333333;
+}
 .choose {
   padding: 1em;
 }
