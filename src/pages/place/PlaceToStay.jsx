@@ -129,7 +129,7 @@ export default function PlaceToStay() {
             onClick={() => (!show ? setShow(true) : setShow(false))}
           >
             <span>Place</span>
-            <img src="/assets/Group (3).svg" alt="dropdown icon" className="arrow_down"/>
+            <img src="/assets/Group (3).svg" alt="dropdown icon" className={ !show?"arrow_down":"arrow_up"}/>
           </div>
           <ul
             className={`loc_sort ${show ? "show_loca" : ""}`}
