@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { CardList, Footer, NavBar } from "../../components";
-import "./place.css"
+import "./place.css";
 const data = [
   {
     image: "/assets/Frame 151 (4).png",
@@ -116,12 +116,25 @@ const data = [
   },
 ];
 export default function PlaceToStay() {
+  const [show, setShow] = useState(false);
+  
   return (
     <div>
       <NavBar />
       <div className="place_margin">
         <div className="loc_con">
-          <ul className="loc_sort">
+          <div
+            className="places"
+            aria-label="show location"
+            onClick={() => (!show ? setShow(true) : setShow(false))}
+          >
+            <span>Place</span>
+            <img src="/assets/Group (3).svg" alt="dropdown icon" className="arrow_down"/>
+          </div>
+          <ul
+            className={`loc_sort ${show ? "show_loca" : ""}`}
+            data-visible={show}
+          >
             <li>Resturant</li>
             <li>Cottage</li>
             <li>Castle</li>
@@ -131,10 +144,10 @@ export default function PlaceToStay() {
             <li>Off-grid</li>
             <li>Farm</li>
           </ul>
-          <p className="loc">
+          <div className="loc">
             {" "}
             <span>Location</span> <img src="/assets/setting-5.svg" alt="" />
-          </p>
+          </div>
         </div>
 
         <CardList data={data} />
