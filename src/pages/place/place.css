@@ -29,6 +29,9 @@
 .arrow_down{
   transform: rotate(90deg);
 }
+.arrow_up{
+  transform: rotate(270deg);
+}
 .loc_sort li {
   margin-bottom: 0.5em;
 }
