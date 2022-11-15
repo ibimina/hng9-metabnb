@@ -123,30 +123,37 @@ export default function PlaceToStay() {
       <NavBar />
       <div className="place_margin">
         <div className="loc_con">
-          <div
-            className="places"
-            aria-label="show location"
-            onClick={() => (!show ? setShow(true) : setShow(false))}
-          >
-            <span>Place</span>
-            <img src="/assets/Group (3).svg" alt="dropdown icon" className={ !show?"arrow_down":"arrow_up"}/>
+          <div className="place_con">
+            <div
+              className="places"
+              aria-label="show location"
+              onClick={() => (!show ? setShow(true) : setShow(false))}
+            >
+              <span>Place</span>
+              <img
+                src="/assets/Group (3).svg"
+                alt="dropdown icon"
+                className={!show ? "arrow_down" : "arrow_up"}
+              />
+            </div>
+            <ul
+              className={`loc_sort ${show ? "show_loca" : ""}`}
+              data-visible={show}
+            >
+              <li>Resturant</li>
+              <li>Cottage</li>
+              <li>Castle</li>
+              <li>fantast city</li>
+              <li>beach</li>
+              <li>Carbins</li>
+              <li>Off-grid</li>
+              <li>Farm</li>
+            </ul>
           </div>
-          <ul
-            className={`loc_sort ${show ? "show_loca" : ""}`}
-            data-visible={show}
-          >
-            <li>Resturant</li>
-            <li>Cottage</li>
-            <li>Castle</li>
-            <li>fantast city</li>
-            <li>beach</li>
-            <li>Carbins</li>
-            <li>Off-grid</li>
-            <li>Farm</li>
-          </ul>
+
           <div className="loc">
             {" "}
-            <span>Location</span> <img src="/assets/setting-5.svg" alt="" />
+            <span>Location</span> <img src="/assets/setting-5.svg" alt="location settings" className="loc_set"/>
           </div>
         </div>
 
