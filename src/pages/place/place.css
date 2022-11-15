@@ -1,12 +1,30 @@
 .loc_con {
   margin-bottom: 1em;
-  /* padding: 1em; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
 }
 .loc_sort {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: none;
+}
+.show_loca {
+  display: block;
+  position: absolute;
+  top: 5em;
+  background-color: rgb(241, 241, 241);
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+.places {
+  border: 0;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 1em;
-  margin-bottom: 1em;
 }
 .loc_sort li {
   margin-bottom: 0.5em;
@@ -14,9 +32,10 @@
 .place_margin {
   padding: 2em;
   margin-bottom: 2em;
+  position: relative;
 }
 .loc {
-  display: inline-flex;
+  display: flex;
   gap: 2em;
   align-items: center;
   border: 1px solid gray;
@@ -24,30 +43,32 @@
   padding: 0.3em 0.8em;
 }
 @media (min-width: 40rem) {
-  .loc_con {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- 
-}
-  .loc_sort {
-    grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 0;
-    width: 80%;
-  }
   .place_margin {
     padding: 3em;
   }
 }
 
 @media (min-width: 60rem) {
+  .places {
+    display: none;
+  }
   .loc_sort {
+    max-width: 100%;
+    display: grid;
     grid-template-columns: repeat(8, 1fr);
+    gap: 1em;
+    position: relative;
+    background-color: transparent;
+    top: auto;
+    padding: 0;
+  }
+  .loc_con {
+    align-items: center;
   }
   .loc_sort li {
     margin-bottom: 0em;
   }
-  .place_margin{
+  .place_margin {
     padding: 2em 4em;
   }
 }
