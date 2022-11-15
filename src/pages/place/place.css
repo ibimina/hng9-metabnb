@@ -10,8 +10,9 @@
 .show_loca {
   display: block;
   position: absolute;
-  top: 5em;
-  background-color: rgb(241, 241, 241);
+  top: 3em;
+  left: 0;
+  background-color: hsl(300, 20%, 96%);
   padding: 1em 2em;
   border-radius: 10px;
 }
@@ -25,28 +26,34 @@
   align-items: center;
   justify-content: space-between;
   gap: 1em;
+  cursor: pointer;
 }
-.arrow_down{
+.arrow_down {
   transform: rotate(90deg);
 }
-.arrow_up{
+.arrow_up {
   transform: rotate(270deg);
 }
 .loc_sort li {
   margin-bottom: 0.5em;
 }
+.place_con {
+  position: relative;
+}
 .place_margin {
   padding: 2em;
   margin-bottom: 2em;
-  position: relative;
 }
 .loc {
   display: flex;
-  gap: 2em;
+  gap: 1em;
   align-items: center;
   border: 1px solid gray;
   border-radius: 10px;
   padding: 0.3em 0.8em;
+}
+.loc_set {
+  width: 15px;
 }
 @media (min-width: 40rem) {
   .place_margin {
@@ -70,6 +77,7 @@
   }
   .loc_con {
     align-items: center;
+    justify-content: space-between;
   }
   .loc_sort li {
     margin-bottom: 0em;
